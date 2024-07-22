@@ -2,7 +2,7 @@ import io
 import sys
 import pytest
 from contextlib import redirect_stdout
-from hanoi import hanoi
+from main.hanoi import hanoi
 
 def test_hanoi_output():
     # Capture stdout to check the printed output
