@@ -10,5 +10,5 @@ def main(n):
     hanoi(n, 'A', 'C', 'B')
 
 if __name__ == "__main__":
-    n = int(input("Enter the number of disks: "))
+    n = 5
     main(n)
